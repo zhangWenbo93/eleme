@@ -33,7 +33,7 @@ export function loadFromLocal(id, key, def) {
   if (!seller) {
     return def;
   } else {
-    let val = JSON.parse(seller)[id];
+    let val = JSON.parse(seller)[id]; //在es6里  每个变量都要定义 否则报错
     if (!val) {
       return def;
     } else {
