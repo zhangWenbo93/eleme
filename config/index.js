@@ -48,7 +48,7 @@ module.exports = {
      * Source Maps
      */
 
-    productionSourceMap: true,
+    productionSourceMap: false, //真实环境禁止调试
     // https://webpack.js.org/configuration/devtool/#production
     devtool: "#source-map",
 
