@@ -42,7 +42,7 @@
         console.log(response)
         if (response.errno === ERR_OK) {
           this.seller = Object.assign({},this.seller,response.data);
-          // console.log(response.data)
+          console.log(response.data)
         }
       });
     },
