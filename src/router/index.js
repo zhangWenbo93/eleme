@@ -11,6 +11,7 @@ Vue.use(Router);
 // 通过 Vue.extend() 创建的组件构造器，
 // 或者，只是一个组件配置对象。
 // 我们晚点再讨论嵌套路由。
+//方法一
 const routes = [
   {
     path: "/",
@@ -46,6 +47,7 @@ const router = new Router({
 
 // export default router; //抛出router
 
+//方法二
 export default new Router({
   routes: [
     {
