@@ -314,11 +314,4 @@
           padding 16px
           font-size 12px
           color rgb(147,153,159)
-
-
-//</style>
-
-//<style rel="stylesheet/stylus" lang="stylus" scoped>
-  // .food-content
-
 </style>
