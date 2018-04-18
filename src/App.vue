@@ -14,7 +14,7 @@
         <router-link to="/seller">商家</router-link>
       </div>
     </div>
-    <router-view :seller="seller"></router-view>
+    <keep-alive><router-view :seller="seller"></router-view></keep-alive>
     <!-- 在此处向路由组件传递seller对象，以便在各个路由组件使用 -->
   </div>
 </template>
